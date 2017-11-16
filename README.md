@@ -14,4 +14,4 @@ I implemented my own versions of the Canny edge detector, total variation denois
 
 The usefulness of this tool is in situations where counting objects in a large set of images becomes repetitive and time consuming. For example, if you had to count the number of red blood cells in a blood smear under a microscope for hundreds of smears this would help.
 
-![alt text](https://github.com/sayemmh/counting-by-diffusion/img/smear1.png)
+![alt text](https://raw.githubusercontent.com/sayemmh/counting-by-diffusion/master/img/smear1.png)

@@ -1,4 +1,4 @@
-function [E, data, C] = KmeansFunction1D(data, K, lambda)
+function [E, data, C] = kmeansFunction1D(data, K, lambda)
 
 C = makeCenter1D(K,data);
 E_old = Inf;

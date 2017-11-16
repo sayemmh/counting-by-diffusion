@@ -16,7 +16,7 @@ decreasing = E_old - E_cur > 0;
 % for each K, run the function 4 times, store all the energy values
 while decreasing
     for row = 1:4
-        [E_cur, data, C] = KmeansFunction1D(data, K, lambda);
+        [E_cur, data, C] = kmeansFunction1D(data, K, lambda);
         Energies(row,K) = E_cur;
             save(['temp/' int2str(K) '/C' int2str(row)], 'C');
             save(['temp/' int2str(K) '/data' int2str(row)], 'data');

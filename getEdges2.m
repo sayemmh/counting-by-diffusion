@@ -1,4 +1,4 @@
-function [B_edges] = edgeFunction(B,lambda)
+function [B_edges] = edgeFunction(B, lambda)
 [r,c,~] = size(B);
 uxf = (B(:,[2:c,c]) - B)./1;
 uyf = (B([2:r,r],:) - B)./1;

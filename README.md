@@ -12,11 +12,10 @@ The process works as such:
 
 I implemented my own versions of the Canny edge detector, total variation denoising filter (Rudin/Osher/Fatemi), Perona-Malik anisotropic diffusion filter, and wrote a regularized version of the kmeans algorithm. These are found in `cannyEdges.m`, `tvreduction.m`, `peronamalik.m`, and `regKMeans.m` respectively.
 
-The usefulness of this tool is in situations where counting objects in a large set of images becomes repetitive and time consuming. For example, if you had to count the number of red blood cells in a blood smear under a microscope for hundreds of smears this would help.
+The usefulness of this tool is in situations where counting objects in a large set of images becomes repetitive and time consuming. For example, if you had to count the number of red blood cells in a blood smear under a microscope for hundreds of images of smears this can automate the process.
 
-![alt text](https://raw.githubusercontent.com/sayemmh/counting-by-diffusion/master/img/smear1.png)
-`smear1.png`
-
+Example usage:
 <p align="center">
+  `smear1.png`
   <img src="https://raw.githubusercontent.com/sayemmh/counting-by-diffusion/master/img/smear1.png">
 </p>

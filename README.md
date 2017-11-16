@@ -21,7 +21,7 @@ Example usage: `smear2.png`
 
 ```
 CBD('smear2.png')
->> number of objects: 
+>> number of objects: 24
 >>
 >>
 ```

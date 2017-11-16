@@ -54,7 +54,7 @@ isEdge=B_edge
 isEdge(isEdge ~= 1) = 0;
 isEdge=~isEdge
 B_edge = round(~B_edge);
-B_edge=getEdges2(B_edge,0.1);
+B_edge=cannyEdges(B_edge,0.1);
 
 dispImage(B_edge)
 
